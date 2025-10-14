@@ -1,6 +1,6 @@
 <!-- Jos's GitHub Profile README -->
 
-<h1 align="center">Hey, I'm Jos 👋</h1>
+<h1 align="center">Hey, I'm Bảo 👋</h1>
 <h3 align="center">19-year-old developer exploring the world of code</h3>
 
 ---
@@ -65,7 +65,7 @@ That mindset fuels everything I build.
 I'm open to projects, collaborations, or freelance work.  
 If you’re building something meaningful and need a focused, creative developer — I’d love to help.
 
-📫 Reach me at: **[your.email@example.com]**  
+📫 Reach me at: **[younglafire@gmail.com]**  
 🌍 Or check out my project here: [WellPath](https://github.com/younglafire/Well-Path)
 
 ---
@@ -77,5 +77,3 @@ If you’re building something meaningful and need a focused, creative developer
 
 ---
 
-> “I code like Hit fights — quiet, precise, and decisive.”  
-> — Jos
