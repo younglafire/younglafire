@@ -1,79 +1,268 @@
-<!-- Jos's GitHub Profile README -->
+# Hi, I'm Gia Bảo
 
-<h1 align="center">Hey, I'm Bảo 👋</h1>
-<h3 align="center">19-year-old developer exploring the world of code</h3>
+### Backend-focused Software Developer from Vietnam
 
----
+I build backend systems, APIs, databases, and products that have to do more than just work on localhost.
 
-### 🌐 About Me
+My main stack is **Python, Django, PostgreSQL, REST APIs, and Docker**. I've also worked with **TypeScript/Node.js, Solana, Rust/Anchor, Sui Move, Supabase, and server-side ML inference**.
 
-I'm a 19-year-old teenager driven by curiosity and the thrill of creating things that actually work.  
-I’m exploring everything from **backend logic** to **frontend beauty**, learning how ideas become real on the web.
-
-What makes me different isn’t just code — it’s the way I think.  
-I apply the **80/20 principle** and **domino strategy** to everything I do:  
-> Focus on what moves the biggest piece — the rest will fall in line.
-
-I love working with people, solving problems together, and turning raw ideas into something that feels alive.
+Currently looking for **Backend Developer / Software Engineer internship or junior opportunities**.
 
 ---
 
-### ⚙️ Tech Stack
+## About Me
 
-| Area | Tools |
-|------|-------|
-| **Languages** | 🐍 Python · 💻 JavaScript · 🌐 HTML · 🎨 CSS |
-| **Frameworks** | 🧩 Django · 🎯 Bootstrap |
-| **Tools** | 🧠 Git · 🧰 VS Code · 🗃️ SQLite |
-| **Learning** | ⚡ React · 🔗 REST APIs · 🏗️ Advanced Django ORM |
-
----
-
-### 🚀 Featured Project
-
-#### 🩺 [WellPath](https://github.com/younglafire/Well-Path)
-> A Django web app that helps users track goals, visualize progress, and stay consistent — because growth deserves clarity.
-
-**Tech:** Django, Python, HTML, CSS, SQLite  
-**Focus:** clean UI, solid backend, and data that tells your story.
+- Backend-focused developer and IT student at **Van Hien University**
+- Strongest with **Python, Django, PostgreSQL, REST APIs, and backend architecture**
+- Comfortable designing relational data models, business logic, APIs, authentication, testing, and deployment
+- Built production-style projects using **Docker, PostgreSQL, Render, Supabase, and CI/testing workflows**
+- Experience building blockchain applications with **Solana + Anchor/Rust** and **Sui + Move**
+- Interested in systems where **backend engineering, security, AI, and product logic** meet
+- Completed **CS50W — Web Programming with Python and JavaScript**
+- I learn with a simple rule: focus on the small set of skills that unlock the next level
 
 ---
 
-### 🧠 Philosophy
+## Tech Stack
 
-> “Discipline builds freedom.”
+### Backend
 
-Every skill I’ve mastered — from **guitar** to **code** — came from focus, not luck.  
-I believe that **consistency beats intensity**, and that each line of code is a chance to refine control and precision.
 
-Like Hit, I value **efficiency**. Like Vegeta, I fight to improve, even when no one’s watching.  
-That mindset fuels everything I build.
 
----
 
-### 🔭 Current Focus
 
-- Completing **CS50x**  
-- Building more **Django-based web projects**  
-- Learning **frontend frameworks** to bridge design and logic  
-- Seeking **collaboration or freelance opportunities**
+\
 
----
 
-### 🤝 Let’s Connect
+### Infrastructure & Tools
 
-I'm open to projects, collaborations, or freelance work.  
-If you’re building something meaningful and need a focused, creative developer — I’d love to help.
 
-📫 Reach me at: **[younglafire@gmail.com]**  
-🌍 Or check out my project here: [WellPath](https://github.com/younglafire/Well-Path)
 
----
 
-### ⚡ Quick Stats
+\
 
-![Jos's GitHub stats](https://github-readme-stats.vercel.app/api?username=younglafire&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=younglafire&layout=compact&theme=tokyonight)
+
+### Also Worked With
+
+
+
+
+
+\
+
 
 ---
 
+# Featured Projects
+
+## 🐾 [WildQuest](https://github.com/younglafire/wildquest)
+
+**AI + Solana creature discovery and battle platform**
+
+🏆 **UniHackFest 2026**
+
+- **2nd Place — Best AI Product**
+- **2nd Place — Best Technical Build**
+
+WildQuest is one of the most technically complete systems I've worked on. It combines blockchain state, a relational database, server-side computer vision, realtime multiplayer logic, and security-sensitive backend services.
+
+**Backend / system highlights:**
+
+- Solana program written with **Rust + Anchor**
+- Player, Creature, Quest, Species, and Match state stored through deterministic **PDAs**
+- **Supabase/PostgreSQL** for catalogue data, battle state, quest data, and duplicate detection
+- Server-side **ResNet-50** image classification
+- Quantized **ONNX** model running locally through Transformers.js
+- No remote model dependency during inference
+- SHA-256 proofs and perceptual hashing for duplicate-image detection
+- Atomic database reservation to prevent concurrent duplicate captures
+- IP + wallet rate limiting
+- Separate capture and match-resolver signing authorities
+- Realtime authoritative battle server
+- Persistent battle rooms and turn-event history
+- Deterministic battle simulation and balance testing
+- Devnet deployment and end-to-end blockchain flows
+
+**Stack:**
+`TypeScript` · `Next.js` · `PostgreSQL` · `Supabase` · `Rust` · `Anchor` · `Solana` · `ONNX` · `Transformers.js` · `WebSockets`
+
+[View repository →](https://github.com/younglafire/wildquest)
+
+---
+
+## 🌱 [WellPath](https://github.com/younglafire/Well-Path)
+
+**Production-style health goal tracking platform built with Django**
+
+My CS50W final project and one of my main projects for developing traditional backend engineering skills.
+
+**Backend highlights:**
+
+- Django 5 application with separated application domains
+- PostgreSQL relational database
+- Goal, progress, taxonomy, user, photo, and social data models
+- Service layer for business logic
+- CRUD workflows and authentication
+- REST API using **Django REST Framework**
+- API schema generation with `drf-spectacular`
+- Dynamic AJAX endpoints
+- Environment-based configuration
+- Dockerized Django + PostgreSQL development environment
+- Gunicorn/Uvicorn production server
+- Deployment on Render
+- **66 automated tests** covering:
+  - models
+  - views
+  - services
+  - forms
+  - authentication
+  - social features
+  - taxonomy
+
+**Stack:**
+`Python` · `Django` · `Django REST Framework` · `PostgreSQL` · `Docker` · `JavaScript` · `Render`
+
+[View repository →](https://github.com/younglafire/Well-Path)
+
+---
+
+## 🛡️ [SignSafe](https://github.com/younglafire/SignSafe)
+
+**Solana transaction guardian built for UniHackFest 2026**
+
+SignSafe explores the security problem of understanding a blockchain transaction **before the user signs it**.
+
+The system separates blockchain evidence, analysis, deterministic security decisions, and human-readable explanations.
+
+```text
+Solana data
+    ↓
+Transaction analyzer
+    ↓
+Normalized evidence
+    ↓
+Deterministic risk engine
+    ↓
+Grounded explanation
+    ↓
+User approval
+```
+
+**Highlights:**
+
+- Pre-sign Solana transaction simulation
+- Expected SOL / token effect analysis
+- Deterministic risk rules
+- Fail-closed security approach
+- Wallet Standard integration
+- Transaction fingerprinting before signing
+- Clear separation between AI explanations and authoritative security decisions
+- Surfpool-backed integration testing
+- Type checking, linting, testing, and build validation through CI scripts
+
+**Stack:**
+`TypeScript` · `Next.js` · `Solana Kit` · `Wallet Standard` · `Surfpool`
+
+[View repository →](https://github.com/younglafire/SignSafe)
+
+---
+
+## 🍉 [WATERY](https://github.com/younglafire/WATERY)
+
+A blockchain fruit-merging and farming game built on **Sui**.
+
+The project includes Move smart contracts for:
+
+- game mechanics
+- player state
+- fungible game currency
+- land ownership
+- farming
+- inventory
+- NFT creation
+- marketplace logic
+- leaderboards
+
+**Stack:**
+`Move` · `Sui` · `TypeScript` · `React`
+
+[View repository →](https://github.com/younglafire/WATERY)
+
+---
+
+# What I Care About as a Backend Developer
+
+I especially enjoy problems involving:
+
+```text
+API design
+Database modeling
+Business logic
+Authentication & authorization
+Backend architecture
+Testing
+Security
+Concurrency
+Docker & deployment
+Performance
+Blockchain state
+AI inference pipelines
+```
+
+I prefer understanding **why a system works**, not only learning which command makes it run.
+
+---
+
+# Current Focus
+
+I'm currently strengthening the areas that matter most for becoming a professional backend engineer:
+
+- Advanced **Python & Django**
+- REST API design
+- PostgreSQL and SQL
+- Data modeling
+- Testing
+- Docker
+- Linux and deployment
+- Authentication & security
+- Backend architecture
+- System design fundamentals
+
+My goal is to become an engineer who can take a feature from:
+
+```text
+Requirement
+    ↓
+Data model
+    ↓
+Business logic
+    ↓
+API
+    ↓
+Tests
+    ↓
+Container
+    ↓
+Deployment
+    ↓
+Production
+```
+
+---
+
+## Beyond Code
+
+Outside software development, I teach and use English regularly, play guitar, run, play football, and spend a lot of time reading.
+
+These activities have taught me skills that transfer directly into engineering: **communication, consistency, learning quickly, working with a team, and explaining complicated ideas simply**.
+
+---
+
+## Let's Connect
+
+I'm open to **Backend Developer, Software Engineer, internship, and junior opportunities**.
+
+- GitHub: [github.com/younglafire](https://github.com/younglafire)
+- Email: [younglafire@gmail.com](mailto\:younglafire@gmail.com)
+
+If you're looking for a developer who enjoys understanding systems deeply and turning ideas into working software, feel free to reach out.
