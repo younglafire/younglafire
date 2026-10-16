@@ -1,4 +1,4 @@
-# Hi, I'm Gia Bảo
+# Hi, I'm Bao
 
 ### Backend-focused Software Developer from Vietnam
 
